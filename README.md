@@ -1,1 +1,1 @@
-# calculator
+This is a project i made with theodinproject.
