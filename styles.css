@@ -1,9 +1,9 @@
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #e7e7e7;
 }
 #calculator {
     display: flex;
@@ -13,4 +13,41 @@ body {
     background-color: grey;
     width: 600px;
     height: 600px;
+    border: solid;
 }
+
+#display {
+    background-color: white;
+    height: 100px;
+    width: 600px;
+    font-size: 80px;
+}
+
+#row{
+    display: flex;
+    flex: 1;
+}
+
+.operator {
+    display:flex;
+    background-color: #ada7a7;
+    width: 150px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.number {
+    display: flex; 
+    width: 150px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#zero {
+    width: 600px;
+}
+
